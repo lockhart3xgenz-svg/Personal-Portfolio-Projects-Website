@@ -1,0 +1,27 @@
+{
+    // Disable standard inline suggestions and IntelliSense
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.inlineSuggest.enabled": "off",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.tabCompletion": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.hover.enabled": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.dropIntoEditor.enabled": false,
+    "editor.suggestSelection": "first",
+
+    // Disable JavaScript/TypeScript language server suggestions
+    "javascript.suggest.enabled": false,
+    "typescript.suggest.enabled": false,
+    "typescript.suggest.completeFunctionCalls": false,
+
+    // Disable GitHub Copilot or similar AI suggestions
+    "gitHubCopilot.enable": false,
+    "gitHubCopilot.inlineSuggest.enable": false
+}
