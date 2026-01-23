@@ -2,7 +2,7 @@
 
 ![Portfolio Preview](./assets/portfolio-preview.png)
 
-A modern, responsive portfolio website showcasing my projects, skills, and experience as a [Your Role - e.g., Full-Stack Developer].
+A modern, responsive portfolio website showcasing my projects, skills, and experience.
 
 🔗 **[View Live Site](https://yourusername.github.io/portfolio)**
 
