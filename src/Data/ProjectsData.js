@@ -1,4 +1,4 @@
-export const Projects = [
+export const ProjectsData = [
     {
         id: 1,
         title: "Projects Portfolio Website",
@@ -16,11 +16,13 @@ export const Projects = [
         githublink: "#",
     },
     {
-        id: 2
+        id: 3,
         title: "Personal Productivity Dashboard",
         description: "An app for managing productivity habits, schedules and best practices",
-        techstack:: ["ReactJS", "Bootstrap", "JSX"],
+        techstack: ["ReactJS", "Bootstrap", "JSX"],
         livelink: "#",
         githublink: "#"
     }
 ]
+
+export default ProjectsData;

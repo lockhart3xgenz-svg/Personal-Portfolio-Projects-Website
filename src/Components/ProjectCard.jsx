@@ -40,17 +40,16 @@ function ProjectCard ({
 
                     <div className="mt-auto d-flex gap-2 flex-wrap">
                         {githublink && (
-                            
+                              <a
                               href={githublink}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="btn btn-outline-primary btn-sm">
-                                💻 GitHub
-                              </a>
+                              className="btn btn-outline-primary 
+                              btn-sm">💻 GitHub</a>
                         )}
 
                         {livelink && (
-                            
+                               <a
                                href={livelink}
                                target="_blank"
                                rel="noopener noreferrer"
