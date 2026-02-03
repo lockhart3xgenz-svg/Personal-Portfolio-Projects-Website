@@ -58,7 +58,9 @@ function Footer() {
                             </a>
 
                             <a
-                                href="#"
+                                href="https://www.pnet.co.za/candidate/profile/Howard-Tlou"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-secondary text-decoration-none"
                                 aria-label="Pnet"
                             >
@@ -67,11 +69,17 @@ function Footer() {
 
                             <a
                                 href="mailto:Lockhart3xgenz@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="text-secondary text-decoration-none"
                                 aria-label="Email"
                             >
                                 Email
                             </a>
+                            <a
+                            href="tel:+27765955158"
+                            aria-label="Phone"
+                            > Call me: (+27)-76-595-5158 </a>
                         </div>
                     </div>
 
