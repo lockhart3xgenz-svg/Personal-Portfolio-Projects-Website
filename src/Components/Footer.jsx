@@ -8,15 +8,13 @@ function Footer() {
             <div className="container py-5">
                 <div className="row g-4">
 
-                    {/* Brand */}
                     <div className="col-md-4">
-                        <h5 className="text-primary mb-3">Howard</h5>
-                        <p className="mb-0">
+                        <h5 className="text-white mb-3">Lockhart.dev</h5>
+                        <p className="mb-0 text-secondary">
                             <small>Based in Bronkhorstspruit</small>
                         </p>
                     </div>
 
-                    {/* Quick Links */}
                     <div className="col-md-4">
                         <h5 className="text-light mb-3">Quick Links</h5>
                         <ul className="list-unstyled">
@@ -43,9 +41,8 @@ function Footer() {
                         </ul>
                     </div>
 
-                    {/* Connect */}
                     <div className="col-md-4">
-                        <h5 className="text-light mb-3">Connect</h5>
+                        <h5 className="text-light mb-3">Contact channels</h5>
                         <div className="d-flex gap-3">
                             <a
                                 href="https://github.com/lockhart3xgenz-svg"
@@ -78,8 +75,11 @@ function Footer() {
                             </a>
                             <a
                             href="tel:+27765955158"
-                            aria-label="Phone"
-                            > Call me: (+27)-76-595-5158 </a>
+                            target="_blank"
+                            className="text-secondary text-decoration-none"
+                            aria-label="Phone number"
+                            > Call me: (+27)-76-595-5158
+                            </a>
                         </div>
                     </div>
 

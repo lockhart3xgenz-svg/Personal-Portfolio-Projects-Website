@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Home() {
     return (
         <div 
-            className="min-vh-100 bg-dark text-white"
-            style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)' }}
+            className="min-vh-100 text-primary"
+            style={{ background: 'lightblue' }}
         >
             <section 
                 className="container py-5"
@@ -71,7 +71,7 @@ function Home() {
                                     Currently Learning
                                 </h3>
                                 <p className="card-text text-light mb-0">
-                                    Backend Development, Mobile Development, Blockchain
+                                    Back-End Development, Mobile Development and Blockchain Development
                                 </p>
                             </div>
                         </div>
