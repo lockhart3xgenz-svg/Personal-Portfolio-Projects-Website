@@ -1,7 +1,7 @@
 function About() {
     return (
-        <div className="min-vh-100 text-white py-5"
-        style = {{background: 'linen'}}
+        <div className="min-vh-100 bg-dark text-white py-5"
+        style = {{background: 'dark'}}
         >
             <div className="container">
                 <div className="row justify-content-center">
@@ -11,7 +11,7 @@ function About() {
                             <div className="border-bottom border-primary w-25 mx-auto mb-4"></div>
                         </div>
 
-                        <div className="bg-secondary bg-opacity-10 rounded p-4 p-md-5">
+                        <div className="bg-linen bg-opacity-10 rounded p-4 p-md-5">
                             <div className="mb-4">
                                 <h2 className="h4 text-primary mb-3">Who I Am</h2>
                                 <p className="lead">
