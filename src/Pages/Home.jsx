@@ -4,7 +4,7 @@ function Home() {
     return (
         <div 
             className="min-vh-100 text-primary"
-            style={{ background: 'lightblue' }}
+            style={{ background:'linen' }}
         >
             <section 
                 className="container py-5"
@@ -12,12 +12,12 @@ function Home() {
             >
                 <div className="row">
                     <div className="col-lg-10 col-xl-8">
-                        <p className="text-primary fs-5 mb-3 fw-medium">
+                        <p className="text-primary fs-5 mb-3 fw-medium ">
                             Hi, I'm
                         </p>
                         
                         <h1 className="display-1 fw-bold mb-4">
-                            Howard
+                            Howard 
                         </h1>
                         
                         <h2 className="display-5 text-light mb-4">
@@ -25,8 +25,8 @@ function Home() {
                         </h2>
                         
                         <p className="fs-5 text-secondary mb-5 lead">
-                            I design and code functional web experiences with modern technologies.
-                            I prioritize clean code and problem-solving.
+                            I design and code functional web experiences with modern technologies,
+                            prioritizing clean code and problem-solving.
                         </p>
                         
                         <div className="d-flex flex-wrap gap-3">
